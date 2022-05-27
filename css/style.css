@@ -669,8 +669,7 @@ blockquote {
   background: gray;
   margin: 5px 3px; }
 .owl-theme .owl-dots .owl-dot.active span {
-  width: 40px;
-  background-color: #F7941D; }
+  display: none;}
 .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #F7941D; }
 .owl-theme .owl-controls {
@@ -2821,7 +2820,12 @@ Back To Top Section
  */
 
 /*# sourceMappingURL=style.css.map */
-
+@media(min-width: 50rem){
+  .logo-container{
+    position: relative;
+    margin-left: 7rem;
+  }
+}
 
 
 .icon i{
