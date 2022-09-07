@@ -2657,7 +2657,7 @@ Back To Top Section
 
 .media-detail {
   text-align: center;
-  border: 1px solid #e6e6e6; }
+}
 
 .border-img {
   border: 1px solid #e6e6e6; }
@@ -2673,8 +2673,7 @@ Back To Top Section
   background-size: cover;
   background-position: center; }
   .footer .footer-item .logo-bottom {
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 14px 1px lightgray; }
+    margin-bottom: 10px; }
   .footer .footer-item .footer-title {
     font-size: 24px;
     /*font-weight: 700;*/
@@ -2814,18 +2813,23 @@ Back To Top Section
       display: table-cell;
       vertical-align: top; }
 
+.logo-container{
+  position: relative;
+  top: 120px;
+  z-index: 2;
+}
 /**
  * 7. - RESPONSIVE
  * -----------------------------------------------------------------------------
  */
 
 /*# sourceMappingURL=style.css.map */
-@media(min-width: 50rem){
+@media(min-width: 1200px){
   .logo-container{
-    position: relative;
-    margin-left: 7rem;
+    max-width: 50%;
   }
 }
+
 
 
 .icon i{
